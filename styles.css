@@ -691,28 +691,29 @@ button:active {
   #attendanceTable th {
     font-size: 12px;
     padding: 6px 3px;
-    min-width: 38px;
+    min-width: 46px;
   }
 
   #attendanceTable td {
     padding: 2px 1px;
     font-size: 11px;
-    min-width: 38px;
+    min-width: 46px;
   }
 
   #attendanceTable td select {
-    padding: 0;
+    padding: 0 !important;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: -0.3px;
-    min-height: 26px;
+    min-height: 28px;
     border-radius: 4px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     text-indent: 1px;
     text-overflow: clip;
-    background-position: center;
+    text-align: center;
+    text-align-last: center;
   }
 }
 
